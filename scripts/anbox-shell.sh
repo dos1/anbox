@@ -33,4 +33,4 @@ exec lxc-attach \
     -v ANDROID_ROOT=/system \
     -v ANDROID_STORAGE=/storage \
     -v ASEC_MOUNTPOINT=/mnt/asec \
-    -v EXTERNAL_STORAGE=/sdcard -- /system/bin/sh
+    -v EXTERNAL_STORAGE=/sdcard -- /system/bin/sh $@
